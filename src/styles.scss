@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+
+$color1: #f2eabc;
+$color2: #54736e;
+$color3: #194756;
+$color4: #080000;
+$color5: #ff3b58;
+
+$color1-dark: #35444a;
+$color2-dark: #283338;
+$color3-dark: #1b2225;
+$color4-dark: #0d1113;
+$color5-dark: #000000;
+
+
+html, body {
+    background-color: $color3;
+}
